@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSlicer", "JsonSlicer\JsonSlicer.csproj", "{1A9583B3-A988-4552-8A82-CC8B39225052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSlicer.Tests", "JsonSlicer.Tests\JsonSlicer.Tests.csproj", "{5DBC7AA2-74AB-4EFC-BD3B-C241FD26E70F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9583B3-A988-4552-8A82-CC8B39225052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9583B3-A988-4552-8A82-CC8B39225052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9583B3-A988-4552-8A82-CC8B39225052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9583B3-A988-4552-8A82-CC8B39225052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBC7AA2-74AB-4EFC-BD3B-C241FD26E70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBC7AA2-74AB-4EFC-BD3B-C241FD26E70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBC7AA2-74AB-4EFC-BD3B-C241FD26E70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBC7AA2-74AB-4EFC-BD3B-C241FD26E70F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21FCC6F-0E9F-47C1-9558-144347E943B7}
+	EndGlobalSection
+EndGlobal

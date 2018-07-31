@@ -1,0 +1,2288 @@
+{
+    "BootupState":  "Normal boot",
+    "Certificates":  [
+
+                     ],
+    "ComputerName":  "P-ED1-RDS-41",
+    "CPUs":  {
+                 "Logical":  8,
+                 "Physical":  1
+             },
+    "Disks":  [
+                  {
+                      "DeviceID":  "C:",
+                      "DriveType":  "Local disk",
+                      "Capacity":  "99 GB",
+                      "FreeSpace":  "26 GB",
+                      "VolumeName":  ""
+                  },
+                  {
+                      "DeviceID":  "D:",
+                      "DriveType":  "Compact disc",
+                      "Capacity":  "0 GB",
+                      "FreeSpace":  "0 GB",
+                      "VolumeName":  null
+                  },
+                  {
+                      "DeviceID":  "G:",
+                      "DriveType":  "Local disk",
+                      "Capacity":  "120 GB",
+                      "FreeSpace":  "50 GB",
+                      "VolumeName":  ""
+                  }
+              ],
+    "DomainName":  "bluechip-llc.com",
+    "DomainRole":  "Member Server",
+    "DNSHostName":  "p-ed1-rds-41.bluechip-llc.com",
+    "EnvironmentVariables":  {
+                                 "ComSpec":  "%SystemRoot%\\system32\\cmd.exe",
+                                 "DEVPATH":  "C:\\Program Files\\Microsoft System Center 2016\\Operations Manager\\Console\\SDK Binaries",
+                                 "FP_NO_HOST_CHECK":  "NO",
+                                 "NUMBER_OF_PROCESSORS":  "8",
+                                 "OS":  "Windows_NT",
+                                 "Path":  "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files\\Microsoft System Center 2012 R2\\Service Manager\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Common Files\\Microsoft System Center 2012\\Orchestrator\\Extensions\\Support\\bin;C:\\Program Files\\Microsoft Data Protection Manager\\DPM2016\\bin\\",
+                                 "PATHEXT":  ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+                                 "PROCESSOR_ARCHITECTURE":  "AMD64",
+                                 "PROCESSOR_IDENTIFIER":  "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel",
+                                 "PROCESSOR_LEVEL":  "6",
+                                 "PROCESSOR_REVISION":  "3e04",
+                                 "PSModulePath":  "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft Security Client\\MpProvider\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\;C:\\Program Files\\Microsoft System Center 2012 R2\\Operations Manager\\Powershell\\;C:\\Program Files\\Microsoft System Center 2012 R2\\Service Manager\\PowerShell\\;C:\\Program Files\\Microsoft System Center 2016\\Operations Manager\\Powershell\\;C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\PowerShell\\;C:\\Program Files\\Microsoft System Center 2016\\Operations Manager\\Powershell\\;C:\\Program Files\\Microsoft System Center 2016\\Virtual Machine Manager\\bin\\psModules\\;C:\\Program Files\\Microsoft Data Protection Manager\\DPM2016\\bin\\Modules\\",
+                                 "SMS_ADMIN_UI_PATH":  "C:\\Program Files (x86)\\Microsoft Configuration Manager\\AdminConsole\\bin\\i386",
+                                 "TEMP":  "%SystemRoot%\\TEMP",
+                                 "TMP":  "%SystemRoot%\\TEMP",
+                                 "UATDATA":  "C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77",
+                                 "USERNAME":  "SYSTEM",
+                                 "windir":  "%SystemRoot%",
+                                 "WIX":  "C:\\Program Files (x86)\\Windows Installer XML v3.5\\"
+                             },
+    "Groups":  {
+                   "Administrators":  [
+                                          "P-ED1-RDS-41\\Administrator",
+                                          "BLUECHIP\\Domain Admins",
+                                          "BLUECHIP\\RAPP-Internal System Support",
+                                          "BLUECHIP\\RAPP-Active Directory Users and Computers",
+                                          "BLUECHIP\\s-orchestrator",
+                                          "BLUECHIP\\P-ED1-RDS-41 Administrators"
+                                      ],
+                   "Backup Operators":  [
+
+                                        ],
+                   "Power Users":  [
+
+                                   ],
+                   "Print Operators":  [
+
+                                       ],
+                   "Remote Desktop Users":  [
+                                                "BLUECHIP\\RAPP-Internal System Support",
+                                                "BLUECHIP\\RAPP-Active Directory Users and Computers",
+                                                "BLUECHIP\\Domain Admins",
+                                                "BLUECHIP\\BCCG HQ Signage Access",
+                                                "BLUECHIP\\RAPP-Captivate"
+                                            ]
+               },
+    "HostsFile":  {
+                      "198.140.189.21":  null
+                  },
+    "InstalledComponents":  [
+                                ".NET Framework 3.5 (includes .NET 2.0 and 3.0)",
+                                ".NET Framework 3.5 Features",
+                                ".NET Framework 4.5",
+                                ".NET Framework 4.5 Features",
+                                "Active Directory Administrative Center",
+                                "Active Directory Certificate Services Tools",
+                                "Active Directory module for Windows PowerShell",
+                                "AD DS and AD LDS Tools",
+                                "AD DS Snap-Ins and Command-Line Tools",
+                                "AD DS Tools",
+                                "AD LDS Snap-Ins and Command-Line Tools",
+                                "ASP.NET 4.5",
+                                "BitLocker Drive Encryption Administration Utilities",
+                                "BitLocker Drive Encryption Tools",
+                                "BitLocker Recovery Password Viewer",
+                                "Certification Authority Management Tools",
+                                "Configuration APIs",
+                                "Desktop Experience",
+                                "DHCP Server Tools",
+                                "DNS Server Tools",
+                                "Failover Cluster Management Tools",
+                                "Failover Cluster Module for Windows PowerShell",
+                                "Failover Clustering Tools",
+                                "Feature Administration Tools",
+                                "File and iSCSI Services",
+                                "File and Storage Services",
+                                "File Server",
+                                "Graphical Management Tools and Infrastructure",
+                                "Group Policy Management",
+                                "Hyper-V GUI Management Tools",
+                                "Hyper-V Management Tools",
+                                "Hyper-V Module for Windows PowerShell",
+                                "IIS 6 Management Compatibility",
+                                "IIS 6 Metabase Compatibility",
+                                "IIS Management Console",
+                                "Ink and Handwriting Services",
+                                "IP Address Management (IPAM) Client",
+                                "Management Tools",
+                                "Media Foundation",
+                                "Message Queuing",
+                                "Message Queuing (MSMQ) Activation",
+                                "Message Queuing Server",
+                                "Message Queuing Services",
+                                "Named Pipe Activation",
+                                "Online Responder Tools",
+                                "Process Model",
+                                "Remote Desktop Gateway Tools",
+                                "Remote Desktop Licensing Diagnoser Tools",
+                                "Remote Desktop Licensing Tools",
+                                "Remote Desktop Services",
+                                "Remote Desktop Services Tools",
+                                "Remote Desktop Session Host",
+                                "Remote Differential Compression",
+                                "Remote Server Administration Tools",
+                                "Role Administration Tools",
+                                "Server Graphical Shell",
+                                "SMB 1.0/CIFS File Sharing Support",
+                                "Storage Services",
+                                "TCP Activation",
+                                "TCP Port Sharing",
+                                "Telnet Client",
+                                "User Interfaces and Infrastructure",
+                                "WCF Services",
+                                "Web Server (IIS)",
+                                "Windows PowerShell",
+                                "Windows PowerShell 2.0 Engine",
+                                "Windows PowerShell 4.0",
+                                "Windows PowerShell ISE",
+                                "Windows Process Activation Service",
+                                "WoW64 Support"
+                            ],
+    "IsDomainController":  false,
+    "IsDomainMember":  true,
+    "IsPDCEmulator":  false,
+    "IsVirtual":  true,
+    "IsWorkgroupMember":  false,
+    "LogonDomainController":  "p-svn-dc-40.bluechip-llc.com",
+    "Manufacturer":  "Microsoft Corporation",
+    "Memory":  "16 GB",
+    "Model":  "Virtual Machine",
+    "NetworkAdapters":  [
+                            {
+                                "DefaultGateway":  "192.168.10.254",
+                                "Description":  "Microsoft Hyper-V Network Adapter",
+                                "DHCPEnabled":  false,
+                                "DHCPLeaseExpires":  null,
+                                "DHCPLeaseObtained":  null,
+                                "DHCPServer":  null,
+                                "DNSServers":  [
+                                                   "192.168.10.30",
+                                                   "192.168.10.31"
+                                               ],
+                                "DNSSuffixSearchOrder":  [
+                                                             "bluechip-llc.com"
+                                                         ],
+                                "IPAddresses":  [
+                                                    "192.168.10.43",
+                                                    "fe80::7c34:5031:a9d9:d9ec"
+                                                ],
+                                "IPSubnets":  [
+                                                  "255.255.255.0",
+                                                  "64"
+                                              ],
+                                "MACAddress":  "00:1D:D8:B7:1C:2C",
+                                "WINSServers":  [
+
+                                                ]
+                            }
+                        ],
+    "OperatingSystem":  {
+                            "Name":  "Microsoft Windows Server 2012 R2 Standard",
+                            "Architecture":  "64-bit",
+                            "Language":  1033,
+                            "SKU":  "Standard Server Edition",
+                            "ServicePack":  0,
+                            "SystemDirectory":  "C:\\Windows\\system32",
+                            "Version":  "6.3.9600",
+                            "WindowsDirectory":  "C:\\Windows"
+                        },
+    "Printers":  [
+                     {
+                         "DriverName":  "Send to Microsoft OneNote 15 Driver",
+                         "Name":  "Send To OneNote 2013",
+                         "PortName":  "nul:"
+                     },
+                     {
+                         "DriverName":  "Send to Microsoft OneNote 16 Driver",
+                         "Name":  "Send To OneNote 16",
+                         "PortName":  "nul:"
+                     },
+                     {
+                         "DriverName":  "Microsoft XPS Document Writer v4",
+                         "Name":  "Microsoft XPS Document Writer",
+                         "PortName":  "PORTPROMPT:"
+                     }
+                 ],
+    "ScheduledTasks":  [
+
+                       ],
+    "SerialNumber":  "00254-10000-00000-AA433",
+    "Services":  {
+                     "NonStandard":  [
+                                         {
+                                             "Caption":  "Microsoft Monitoring Agent Audit Forwarding",
+                                             "Description":  "Sends events to a collector for storage in a SQL database.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\AdtAgent.exe",
+                                             "StartMode":  "Disabled",
+                                             "StartAs":  "NT AUTHORITY\\NetworkService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Application Host Helper Service",
+                                             "Description":  "Provides administrative services for IIS, for example configuration history and Application Pool account mapping. If this service is stopped, configuration history and locking down files or directories with Application Pool specific Access Control Entries will not work.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k apphost",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "App Readiness",
+                                             "Description":  "Gets apps ready for use the first time a user signs in to this PC and when adding new apps.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\System32\\svchost.exe -k AppReadiness",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "AppX Deployment Service (AppXSVC)",
+                                             "Description":  "Provides infrastructure support for deploying Store applications. This service is started on demand and if disabled Store applications will not be deployed to the system, and may not function properly.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k wsappx",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "ASP.NET State Service",
+                                             "Description":  "Provides support for out-of-process session states for ASP.NET. If this service is stopped, out-of-process requests will not be processed. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\aspnet_state.exe",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT AUTHORITY\\NetworkService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "ActiveX Installer (AxInstSV)",
+                                             "Description":  "Provides User Account Control validation for the installation of ActiveX controls from the Internet and enables management of ActiveX control installation based on Group Policy settings. This service is started on demand and if disabled the installation of ActiveX controls will behave according to default browser settings.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k AxInstSVGroup",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "SMS Agent Host",
+                                             "Description":  "Provides change and configuration services for computer management systems.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\CCM\\CcmExec.exe",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Configuration Manager Remote Control",
+                                             "Description":  "Provides the ability to remote control the system to authorized users",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\CCM\\RemCtrl\\CmRcService.exe",
+                                             "StartMode":  "Disabled",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Offline Files",
+                                             "Description":  "The Offline Files service performs maintenance activities on the Offline Files cache, responds to user logon and logoff events, implements the internals of the public API, and dispatches interesting events to those interested in Offline Files activities and changes in cache state.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Disabled",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Diagnostics Tracking Service",
+                                             "Description":  "The Diagnostics Tracking Service enables data collection about functional issues in Windows components.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\System32\\svchost.exe -k utcsvc",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Windows Presentation Foundation Font Cache 3.0.0.0",
+                                             "Description":  "Optimizes performance of Windows Presentation Foundation (WPF) applications by caching commonly used font data. WPF applications will start this service if it is not already running. It can be disabled, though doing so will degrade the performance of WPF applications.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\Microsoft.Net\\Framework64\\v3.0\\WPF\\PresentationFontCache.exe",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT Authority\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Google Update Service (gupdate)",
+                                             "Description":  "Keeps your Google software up to date. If this service is disabled or stopped, your Google software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Google software using it.",
+                                             "Started":  false,
+                                             "PathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Google Update Service (gupdatem)",
+                                             "Description":  "Keeps your Google software up to date. If this service is disabled or stopped, your Google software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Google software using it.",
+                                             "Started":  false,
+                                             "PathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /medsvc",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Monitoring Agent",
+                                             "Description":  "The Monitoring Agent service monitors the health of the computer. The service may be configured to monitor the health of other computers in addition to this computer. If this service is stopped, detection of failures may not occur. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                             "Started":  true,
+                                             "PathName":  "\"C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\HealthService.exe\"",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Human Interface Device Service",
+                                             "Description":  "Activates and maintains the use of hot buttons on keyboards, remote controls, and other multimedia devices. It is recommended that you keep this service running.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Internet Explorer ETW Collector Service",
+                                             "Description":  "ETW Collector Service for Internet Explorer. When running, this service collects real time ETW events and processes them.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\IEEtwCollector.exe /V",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "IIS Admin Service",
+                                             "Description":  "Enables this server to administer the IIS metabase. The IIS metabase stores configuration for the SMTP and FTP services. If this service is stopped, the server will be unable to configure SMTP or FTP. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\inetsrv\\inetinfo.exe",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Policy Platform Local Authority",
+                                             "Description":  null,
+                                             "Started":  false,
+                                             "PathName":  "\"C:\\Program Files\\Microsoft Policy Platform\\policyHost.exe\" /service",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Policy Platform Processor",
+                                             "Description":  null,
+                                             "Started":  false,
+                                             "PathName":  "\"C:\\Program Files\\Microsoft Policy Platform\\policyHost.exe\" /service",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Dependency Agent",
+                                             "Description":  "Manages communication between Dependency Agents and Service Map",
+                                             "Started":  true,
+                                             "PathName":  "\"C:\\Program Files\\Microsoft Dependency Agent\\bin\\agentwrap.exe\"",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Antimalware Service",
+                                             "Description":  "Helps protect users from malware and other potentially unwanted software",
+                                             "Started":  true,
+                                             "PathName":  "\"c:\\Program Files\\Microsoft Security Client\\MsMpEng.exe\"",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Message Queuing",
+                                             "Description":  "Provides a messaging infrastructure and development tool for creating distributed messaging applications for Windows-based networks and programs. If this service is stopped, distributed messages will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\mqsvc.exe",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "NT Authority\\NetworkService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Network Connection Broker",
+                                             "Description":  "Brokers connections that allow Windows Store Apps to receive notifications from the internet.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Net.Msmq Listener Adapter",
+                                             "Description":  "Receives activation requests over the net.msmq and msmq.formatname protocols and passes them to the Windows Process Activation Service.",
+                                             "Started":  true,
+                                             "PathName":  "\"C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe\" -NetMsmqActivator",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "NT AUTHORITY\\NetworkService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Net.Pipe Listener Adapter",
+                                             "Description":  "Receives activation requests over the net.pipe protocol and passes them to the Windows Process Activation Service.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "NT AUTHORITY\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Net.Tcp Listener Adapter",
+                                             "Description":  "Receives activation requests over the net.tcp protocol and passes them to the Windows Process Activation Service.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "NT AUTHORITY\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Network Inspection",
+                                             "Description":  "Helps guard against intrusion attempts targeting known and newly discovered vulnerabilities in network protocols",
+                                             "Started":  false,
+                                             "PathName":  "\"c:\\Program Files\\Microsoft Security Client\\NisSrv.exe\"",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT AUTHORITY\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Orchestrator Remoting Service",
+                                             "Description":  "Enables the Orchestrator Deployment Manager to deploy Runbook Designer, Runbook Server, or integration packs",
+                                             "Started":  true,
+                                             "PathName":  "\"C:\\Windows\\SysWOW64\\OrchestratorRemotingService.exe\"",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Office  Source Engine",
+                                             "Description":  "Saves installation files used for updates and repairs and is required for the downloading of Setup updates and Watson error reports.",
+                                             "Started":  false,
+                                             "PathName":  "\"C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Source Engine\\OSE.EXE\"",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Smart Card Device Enumeration Service",
+                                             "Description":  "Creates software device nodes for all smart card readers accessible to a given session. If this service is disabled, WinRT APIs will not be able to enumerate smart card readers.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Storage Spaces SMP",
+                                             "Description":  "Host service for the Microsoft Storage Spaces management provider. If this service is stopped or disabled, Storage Spaces cannot be managed.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\System32\\svchost.exe -k smphost",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT AUTHORITY\\NetworkService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "ConfigMgr Task Sequence Agent",
+                                             "Description":  "ConfigMgr client agent for task sequence execution",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\CCM\\TSManager.exe /service",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Windows Image Acquisition (WIA)",
+                                             "Description":  "Provides image acquisition services for scanners and cameras",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k imgsvc",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT Authority\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Monitoring Agent APM",
+                                             "Description":  "Monitors the health of .NET applications on this computer. If this service is stopped detection of application failures may not occur.",
+                                             "Started":  false,
+                                             "PathName":  "\"C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\APMDOTNETAgent\\InterceptSvc.exe\"",
+                                             "StartMode":  "Disabled",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "System Events Broker",
+                                             "Description":  "Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Touch Keyboard and Handwriting Panel Service",
+                                             "Description":  "Enables Touch Keyboard and Handwriting Panel pen and ink functionality",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\System32\\svchost.exe -k TabletInputServiceGroup",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Storage Tiers Management",
+                                             "Description":  "Optimizes the placement of data in storage tiers on all tiered storage spaces in the system.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\TieringEngineService.exe",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "localSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Time Broker",
+                                             "Description":  "Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT AUTHORITY\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Hyper-V Guest Service Interface",
+                                             "Description":  "Provides an interface for the Hyper-V host to interact with specific services running inside the virtual machine.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Hyper-V Heartbeat Service",
+                                             "Description":  "Monitors the state of this virtual machine by reporting a heartbeat at regular intervals. This service helps you identify running virtual machines that have stopped responding.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k ICService",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Hyper-V Data Exchange Service",
+                                             "Description":  "Provides a mechanism to exchange data between the virtual machine and the operating system running on the physical computer.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Hyper-V Remote Desktop Virtualization Service",
+                                             "Description":  "Provides a platform for communication between the virtual machine and the operating system running on the physical computer.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k ICService",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Hyper-V Guest Shutdown Service",
+                                             "Description":  "Provides a mechanism to shut down the operating system of this virtual machine from the management interfaces on the physical computer.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Hyper-V Time Synchronization Service",
+                                             "Description":  "Synchronizes the system time of this virtual machine with the system time of the physical computer.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT AUTHORITY\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Hyper-V Volume Shadow Copy Requestor",
+                                             "Description":  "Coordinates the communications that are required to use Volume Shadow Copy Service to back up applications and data on this virtual machine from the operating system on the physical computer.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "W3C Logging Service",
+                                             "Description":  "Provides W3C logging for Internet Information Services (IIS). If this service is stopped, W3C logging configured by IIS will not work.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k apphost",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Windows Process Activation Service",
+                                             "Description":  "The Windows Process Activation Service (WAS) provides process activation, resource management and health management services for message-activated applications.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k iissvcs",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Windows Connection Manager",
+                                             "Description":  "Makes automatic connect/disconnect decisions based on the network connectivity options currently available to the PC and enables management of network connectivity based on Group Policy settings.",
+                                             "Started":  true,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted",
+                                             "StartMode":  "Auto",
+                                             "StartAs":  "NT Authority\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "WebClient",
+                                             "Description":  "Enables Windows-based programs to create, access, and modify Internet-based files. If this service is stopped, these functions will not be available. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k WebClientGroup",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT AUTHORITY\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Windows Encryption Provider Host Service",
+                                             "Description":  "Windows Encryption Provider Host Service brokers encryption related functionalities from 3rd Party Encryption Providers to processes that need to evaluate and apply EAS policies. Stopping this will compromise EAS compliancy checks that have been established by the connected Mail Accounts",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k WepHostSvcGroup",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "NT AUTHORITY\\LocalService",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Still Image Acquisition Events",
+                                             "Description":  "Launches applications associated with still image acquisition events.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         },
+                                         {
+                                             "Caption":  "Microsoft Account Sign-in Assistant",
+                                             "Description":  "Enables user sign-in through Microsoft account identity services. If this service is stopped, users will not be able to logon to the computer with their Microsoft account.",
+                                             "Started":  false,
+                                             "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                             "StartMode":  "Manual",
+                                             "StartAs":  "LocalSystem",
+                                             "Status":  "OK"
+                                         }
+                                     ],
+                     "Standard":  [
+                                      {
+                                          "Caption":  "Application Experience",
+                                          "Description":  "Processes application compatibility cache requests for applications as they are launched",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Application Layer Gateway Service",
+                                          "Description":  "Provides support for 3rd party protocol plug-ins for Internet Connection Sharing",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\alg.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Application Identity",
+                                          "Description":  "Determines and verifies the identity of an application. Disabling this service will prevent AppLocker from being enforced.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT Authority\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Application Information",
+                                          "Description":  "Facilitates the running of interactive applications with additional administrative privileges.  If this service is stopped, users will be unable to launch applications with the additional administrative privileges they may require to perform desired user tasks.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Application Management",
+                                          "Description":  "Processes installation, removal, and enumeration requests for software deployed through Group Policy. If the service is disabled, users will be unable to install, remove, or enumerate software deployed through Group Policy. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Audio Endpoint Builder",
+                                          "Description":  "Manages audio devices for the Windows Audio service.  If this service is stopped, audio devices and effects will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Audio",
+                                          "Description":  "Manages audio for Windows-based programs.  If this service is stopped, audio devices and effects will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Base Filtering Engine",
+                                          "Description":  "The Base Filtering Engine (BFE) is a service that manages firewall and Internet Protocol security (IPsec) policies and implements user mode filtering. Stopping or disabling the BFE service will significantly reduce the security of the system. It will also result in unpredictable behavior in IPsec management and firewall applications.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Background Intelligent Transfer Service",
+                                          "Description":  "Transfers files in the background using idle network bandwidth. If the service is disabled, then any applications that depend on BITS, such as Windows Update or MSN Explorer, will be unable to automatically download programs and other information.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Background Tasks Infrastructure Service",
+                                          "Description":  "Windows infrastructure service that controls which background tasks can run on the system.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Computer Browser",
+                                          "Description":  "Maintains an updated list of computers on the network and supplies this list to computers designated as browsers. If this service is stopped, this list will not be updated or maintained. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Disabled",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Certificate Propagation",
+                                          "Description":  "Copies user certificates and root certificates from smart cards into the current user\u0027s certificate store, detects when a smart card is inserted into a smart card reader, and, if needed, installs the smart card Plug and Play minidriver.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "COM+ System Application",
+                                          "Description":  "Manages the configuration and tracking of Component Object Model (COM)+-based components. If the service is stopped, most COM+-based components will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Cryptographic Services",
+                                          "Description":  "Provides three management services: Catalog Database Service, which confirms the signatures of Windows files and allows new programs to be installed; Protected Root Service, which adds and removes Trusted Root Certification Authority certificates from this computer; and Automatic Root Certificate Update Service, which retrieves root certificates from Windows Update and enable scenarios such as SSL. If this service is stopped, these management services will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k NetworkService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT Authority\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "DCOM Server Process Launcher",
+                                          "Description":  "The DCOMLAUNCH service launches COM and DCOM servers in response to object activation requests. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the DCOMLAUNCH service running.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Optimize drives",
+                                          "Description":  "Helps the computer run more efficiently by optimizing files on storage drives.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k defragsvc",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Device Association Service",
+                                          "Description":  "Enables pairing between the system and wired or wireless devices.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Device Install Service",
+                                          "Description":  "Enables a computer to recognize and adapt to hardware changes with little or no user input. Stopping or disabling this service will result in system instability.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "DHCP Client",
+                                          "Description":  "Registers and updates IP addresses and DNS records for this computer. If this service is stopped, this computer will not receive dynamic IP addresses and DNS updates. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT Authority\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "DNS Client",
+                                          "Description":  "The DNS Client service (dnscache) caches Domain Name System (DNS) names and registers the full computer name for this computer. If the service is stopped, DNS names will continue to be resolved. However, the results of DNS name queries will not be cached and the computer\u0027s name will not be registered. If the service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k NetworkService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Wired AutoConfig",
+                                          "Description":  "The Wired AutoConfig (DOT3SVC) service is responsible for performing IEEE 802.1X authentication on Ethernet interfaces. If your current wired network deployment enforces 802.1X authentication, the DOT3SVC service should be configured to run for establishing Layer 2 connectivity and/or providing access to network resources. Wired networks that do not enforce 802.1X authentication are unaffected by the DOT3SVC service.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Diagnostic Policy Service",
+                                          "Description":  "The Diagnostic Policy Service enables problem detection, troubleshooting and resolution for Windows components.  If this service is stopped, diagnostics will no longer function.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalServiceNoNetwork",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Device Setup Manager",
+                                          "Description":  "Enables the detection, download and installation of device-related software. If this service is disabled, devices may be configured with outdated software, and may not work correctly.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Extensible Authentication Protocol",
+                                          "Description":  "The Extensible Authentication Protocol (EAP) service provides network authentication in such scenarios as 802.1x wired and wireless, VPN, and Network Access Protection (NAP).  EAP also provides application programming interfaces (APIs) that are used by network access clients, including wireless and VPN clients, during the authentication process.  If you disable this service, this computer is prevented from accessing networks that require EAP authentication.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Encrypting File System (EFS)",
+                                          "Description":  "Provides the core file encryption technology used to store encrypted files on NTFS file system volumes. If this service is stopped or disabled, applications will be unable to access encrypted files.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\lsass.exe",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Event Log",
+                                          "Description":  "This service manages events and event logs. It supports logging events, querying events, subscribing to events, archiving event logs, and managing event metadata. It can display events in both XML and plain text format. Stopping this service may compromise security and reliability of the system.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "COM+ Event System",
+                                          "Description":  "Supports System Event Notification Service (SENS), which provides automatic distribution of events to subscribing Component Object Model (COM) components. If the service is stopped, SENS will close and will not be able to provide logon and logoff notifications. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Function Discovery Provider Host",
+                                          "Description":  "The FDPHOST service hosts the Function Discovery (FD) network discovery providers. These FD providers supply network discovery services for the Simple Services Discovery Protocol (SSDP) and Web Services – Discovery (WS-D) protocol. Stopping or disabling the FDPHOST service will disable network discovery for these protocols when using FD. When this service is unavailable, network services using FD and relying on these discovery protocols will be unable to find network devices or resources.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Function Discovery Resource Publication",
+                                          "Description":  "Publishes this computer and resources attached to this computer so they can be discovered over the network.  If this service is stopped, network resources will no longer be published and they will not be discovered by other computers on the network.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Font Cache Service",
+                                          "Description":  "Optimizes performance of applications by caching commonly used font data. Applications will start this service if it is not already running. It can be disabled, though doing so will degrade application performance.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Group Policy Client",
+                                          "Description":  "The service is responsible for applying settings configured by administrators for the computer and users through the Group Policy component. If the service is disabled, the settings will not be applied and applications and components will not be manageable through Group Policy. Any components or applications that depend on the Group Policy component might not be functional if the service is disabled.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k GPSvcGroup",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Health Key and Certificate Management",
+                                          "Description":  "Provides X.509 certificate and key management services for the Network Access Protection Agent (NAPAgent). Enforcement technologies that use X.509 certificates may not function properly without this service",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "IKE and AuthIP IPsec Keying Modules",
+                                          "Description":  "The IKEEXT service hosts the Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) keying modules. These keying modules are used for authentication and key exchange in Internet Protocol security (IPsec). Stopping or disabling the IKEEXT service will disable IKE and AuthIP key exchange with peer computers. IPsec is typically configured to use IKE or AuthIP; therefore, stopping or disabling the IKEEXT service might result in an IPsec failure and might compromise the security of the system. It is strongly recommended that you have the IKEEXT service running.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "IP Helper",
+                                          "Description":  "Provides tunnel connectivity using IPv6 transition technologies (6to4, ISATAP, Port Proxy, and Teredo), and IP-HTTPS. If this service is stopped, the computer will not have the enhanced connectivity benefits that these technologies offer.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k NetSvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "CNG Key Isolation",
+                                          "Description":  "The CNG key isolation service is hosted in the LSA process. The service provides key process isolation to private keys and associated cryptographic operations as required by the Common Criteria. The service stores and uses long-lived keys in a secure process complying with Common Criteria requirements.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\lsass.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "KDC Proxy Server service (KPS)",
+                                          "Description":  "KDC Proxy Server service runs on edge servers to proxy Kerberos protocol messages to domain controllers on the corporate network.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k KpsSvcGroup",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "KtmRm for Distributed Transaction Coordinator",
+                                          "Description":  "Coordinates transactions between the Distributed Transaction Coordinator (MSDTC) and the Kernel Transaction Manager (KTM). If it is not needed, it is recommended that this service remain stopped. If it is needed, both MSDTC and KTM will start this service automatically. If this service is disabled, any MSDTC transaction interacting with a Kernel Resource Manager will fail and any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k NetworkServiceAndNoImpersonation",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Server",
+                                          "Description":  "Supports file, print, and named-pipe sharing over the network for this computer. If this service is stopped, these functions will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Workstation",
+                                          "Description":  "Creates and maintains client network connections to remote servers using the SMB protocol. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k NetworkService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Link-Layer Topology Discovery Mapper",
+                                          "Description":  "Creates a Network Map, consisting of PC and device topology (connectivity) information, and metadata describing each PC and device.  If this service is disabled, the Network Map will not function properly.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "TCP/IP NetBIOS Helper",
+                                          "Description":  "Provides support for the NetBIOS over TCP/IP (NetBT) service and NetBIOS name resolution for clients on the network, therefore enabling users to share files, print, and log on to the network. If this service is stopped, these functions might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Local Session Manager",
+                                          "Description":  "Core Windows Service that manages local user sessions. Stopping or disabling this service will result in system instability.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Multimedia Class Scheduler",
+                                          "Description":  "Enables relative prioritization of work based on system-wide task priorities. This is intended mainly for multimedia applications.  If this service is stopped, individual tasks resort to their default priority.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Firewall",
+                                          "Description":  "Windows Firewall helps protect your computer by preventing unauthorized users from gaining access to your computer through the Internet or a network.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT Authority\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Distributed Transaction Coordinator",
+                                          "Description":  "Coordinates transactions that span multiple resource managers, such as databases, message queues, and file systems. If this service is stopped, these transactions will fail. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\msdtc.exe",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Microsoft iSCSI Initiator Service",
+                                          "Description":  "Manages Internet SCSI (iSCSI) sessions from this computer to remote iSCSI target devices. If this service is stopped, this computer will not be able to login or access iSCSI targets. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Installer",
+                                          "Description":  "Adds, modifies, and removes applications provided as a Windows Installer (*.msi, *.msp) package. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\msiexec.exe /V",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Network Access Protection Agent",
+                                          "Description":  "The Network Access Protection (NAP) agent service collects and manages health information for client computers on a network. Information collected by NAP agent is used to make sure that the client computer has the required software and settings. If a client computer is not compliant with health policy, it can be provided with restricted network access until its configuration is updated. Depending on the configuration of health policy, client computers might be automatically updated so that users quickly regain full network access without having to manually update their computer.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k NetworkService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Network Connectivity Assistant",
+                                          "Description":  "Provides DirectAccess status notification for UI components",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k NetSvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Netlogon",
+                                          "Description":  "Maintains a secure channel between this computer and the domain controller for authenticating users and services. If this service is stopped, the computer may not authenticate users and services and the domain controller cannot register DNS records. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\lsass.exe",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Network Connections",
+                                          "Description":  "Manages objects in the Network and Dial-Up Connections folder, in which you can view both local area network and remote connections.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Network List Service",
+                                          "Description":  "Identifies the networks to which the computer has connected, collects and stores properties for these networks, and notifies applications when these properties change.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Net.Tcp Port Sharing Service",
+                                          "Description":  "Provides ability to share TCP ports over the net.tcp protocol.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Network Location Awareness",
+                                          "Description":  "Collects and stores configuration information for the network and notifies programs when this information is modified. If this service is stopped, configuration information might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k NetworkService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Network Store Interface Service",
+                                          "Description":  "This service delivers network notifications (e.g. interface addition/deleting etc) to user mode clients. Stopping this service will cause loss of network connectivity. If this service is disabled, any other services that explicitly depend on this service will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT Authority\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Performance Counter DLL Host",
+                                          "Description":  "Enables remote users and 64-bit processes to query performance counters provided by 32-bit DLLs. If this service is stopped, only local users and 32-bit processes will be able to query performance counters provided by 32-bit DLLs.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\SysWow64\\perfhost.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Performance Logs \u0026 Alerts",
+                                          "Description":  "Performance Logs and Alerts Collects performance data from local or remote computers based on preconfigured schedule parameters, then writes the data to a log or triggers an alert. If this service is stopped, performance information will not be collected. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalServiceNoNetwork",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Plug and Play",
+                                          "Description":  "Enables a computer to recognize and adapt to hardware changes with little or no user input. Stopping or disabling this service will result in system instability.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "IPsec Policy Agent",
+                                          "Description":  "Internet Protocol security (IPsec) supports network-level peer authentication, data origin authentication, data integrity, data confidentiality (encryption), and replay protection.  This service enforces IPsec policies created through the IP Security Policies snap-in or the command-line tool \"netsh ipsec\".  If you stop this service, you may experience network connectivity issues if your policy requires that connections use IPsec.  Also,remote management of Windows Firewall is not available when this service is stopped.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k NetworkServiceNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT Authority\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Power",
+                                          "Description":  "Manages power policy and power policy notification delivery.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Printer Extensions and Notifications",
+                                          "Description":  "This service opens custom printer dialog boxes and handles notifications from a remote print server or a printer. If you turn off this service, you won’t be able to see printer extensions or notifications.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k print",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "User Profile Service",
+                                          "Description":  "This service is responsible for loading and unloading user profiles. If this service is stopped or disabled, users will no longer be able to successfully sign in or sign out, apps might have problems getting to users\u0027 data, and components registered to receive profile event notifications won\u0027t receive them.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Access Auto Connection Manager",
+                                          "Description":  "Creates a connection to a remote network whenever a program references a remote DNS or NetBIOS name or address.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Access Connection Manager",
+                                          "Description":  "Manages dial-up and virtual private network (VPN) connections from this computer to the Internet or other remote networks. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Routing and Remote Access",
+                                          "Description":  "Offers routing services to businesses in local area and wide area network environments.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Disabled",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Registry",
+                                          "Description":  "Enables remote users to modify registry settings on this computer. If this service is stopped, the registry can be modified only by users on this computer. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k localService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "RPC Endpoint Mapper",
+                                          "Description":  "Resolves RPC interfaces identifiers to transport endpoints. If this service is stopped or disabled, programs using Remote Procedure Call (RPC) services will not function properly.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k RPCSS",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Procedure Call (RPC) Locator",
+                                          "Description":  "In Windows 2003 and earlier versions of Windows, the Remote Procedure Call (RPC) Locator service manages the RPC name service database. In Windows Vista and later versions of Windows, this service does not provide any functionality and is present for application compatibility.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\locator.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Procedure Call (RPC)",
+                                          "Description":  "The RPCSS service is the Service Control Manager for COM and DCOM servers. It performs object activations requests, object exporter resolutions and distributed garbage collection for COM and DCOM servers. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the RPCSS service running.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k rpcss",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Resultant Set of Policy Provider",
+                                          "Description":  "Provides a network service that processes requests to simulate application of Group Policy settings for a target user or computer in various situations and computes the Resultant Set of Policy settings.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\RSoPProv.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Special Administration Console Helper",
+                                          "Description":  "Allows administrators to remotely access a command prompt using Emergency Management Services.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Security Accounts Manager",
+                                          "Description":  "The startup of this service signals other services that the Security Accounts Manager (SAM) is ready to accept requests.  Disabling this service will prevent other services in the system from being notified when the SAM is ready, which may in turn cause those services to fail to start correctly. This service should not be disabled.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\lsass.exe",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Smart Card",
+                                          "Description":  "Manages access to smart cards read by this computer. If this service is stopped, this computer will be unable to read smart cards. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation",
+                                          "StartMode":  "Disabled",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Task Scheduler",
+                                          "Description":  "Enables a user to configure and schedule automated tasks on this computer. The service also hosts multiple Windows system-critical tasks. If this service is stopped or disabled, these tasks will not be run at their scheduled times. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Smart Card Removal Policy",
+                                          "Description":  "Allows the system to be configured to lock the user desktop upon smart card removal.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Secondary Logon",
+                                          "Description":  "Enables starting processes under alternate credentials. If this service is stopped, this type of logon access will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "System Event Notification Service",
+                                          "Description":  "Monitors system events and notifies subscribers to COM+ Event System of these events.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Desktop Configuration",
+                                          "Description":  "Remote Desktop Configuration service (RDCS) is responsible for all Remote Desktop Services and Remote Desktop related configuration and session maintenance activities that require SYSTEM context. These include per-session temporary folders, RD themes, and RD certificates.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Internet Connection Sharing (ICS)",
+                                          "Description":  "Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Disabled",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Shell Hardware Detection",
+                                          "Description":  "Provides notifications for AutoPlay hardware events.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "SNMP Trap",
+                                          "Description":  "Receives trap messages generated by local or remote Simple Network Management Protocol (SNMP) agents and forwards the messages to SNMP management programs running on this computer. If this service is stopped, SNMP-based programs on this computer will not receive SNMP trap messages. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\snmptrap.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Print Spooler",
+                                          "Description":  "This service spools print jobs and handles interaction with the printer.  If you turn off this service, you won’t be able to print or see your printers.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\spoolsv.exe",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Software Protection",
+                                          "Description":  "Enables the download, installation and enforcement of digital licenses for Windows and Windows applications. If the service is disabled, the operating system and licensed applications may run in a notification mode. It is strongly recommended that you not disable the Software Protection service.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\sppsvc.exe",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "SSDP Discovery",
+                                          "Description":  "Discovers networked devices and services that use the SSDP discovery protocol, such as UPnP devices. Also announces SSDP devices and services running on the local computer. If this service is stopped, SSDP-based devices will not be discovered. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation",
+                                          "StartMode":  "Disabled",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Secure Socket Tunneling Protocol Service",
+                                          "Description":  "Provides support for the Secure Socket Tunneling Protocol (SSTP) to connect to remote computers using VPN. If this service is disabled, users will not be able to use SSTP to access remote servers.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT Authority\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Spot Verifier",
+                                          "Description":  "Verifies potential file system corruptions.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Microsoft Software Shadow Copy Provider",
+                                          "Description":  "Manages software-based volume shadow copies taken by the Volume Shadow Copy service. If this service is stopped, software-based volume shadow copies cannot be managed. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k swprv",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Superfetch",
+                                          "Description":  "Maintains and improves system performance over time.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Telephony",
+                                          "Description":  "Provides Telephony API (TAPI) support for programs that control telephony devices on the local computer and, through the LAN, on servers that are also running the service.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k tapisrv",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Desktop Services",
+                                          "Description":  "Allows users to connect interactively to a remote computer. Remote Desktop and Remote Desktop Session Host Server depend on this service.  To prevent remote use of this computer, clear the checkboxes on the Remote tab of the System properties control panel item.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k termsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT Authority\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Themes",
+                                          "Description":  "Provides user experience theme management.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Thread Ordering Server",
+                                          "Description":  "Provides ordered execution for a group of threads within a specific period of time.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Distributed Link Tracking Client",
+                                          "Description":  "Maintains links between NTFS files within a computer or across computers in a network.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Modules Installer",
+                                          "Description":  "Enables installation, modification, and removal of Windows updates and optional components. If this service is disabled, install or uninstall of Windows updates might fail for this computer.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\servicing\\TrustedInstaller.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "User Access Logging Service",
+                                          "Description":  "This service logs unique client access requests, in the form of IP addresses and user names, of installed products and roles on the local server. This information can be queried, via Powershell, by administrators needing to quantify client demand of server software for offline Client Access License (CAL) management. If the service is disabled, client requests will not be logged and will not be retrievable via Powershell queries. Stopping the service will not affect query of historical data (see supporting documentation for steps to delete historical data). The local system administrator must consult his, or her, Windows Server license terms to determine the number of CALs that are required for the server software to be appropriately licensed; use of the UAL service and data does not alter this obligation.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Interactive Services Detection",
+                                          "Description":  "Enables user notification of user input for interactive services, which enables access to dialogs created by interactive services when they appear. If this service is stopped, notifications of new interactive service dialogs will no longer function and there might not be access to interactive service dialogs. If this service is disabled, both notifications of and access to new interactive service dialogs will no longer function.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\UI0Detect.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Remote Desktop Services UserMode Port Redirector",
+                                          "Description":  "Allows the redirection of Printers/Drives/Ports for RDP connections",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "UPnP Device Host",
+                                          "Description":  "Allows UPnP devices to be hosted on this computer. If this service is stopped, any hosted UPnP devices will stop functioning and no additional hosted devices can be added. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation",
+                                          "StartMode":  "Disabled",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Credential Manager",
+                                          "Description":  "Provides secure storage and retrieval of credentials to users, applications and security service packages.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\lsass.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Virtual Disk",
+                                          "Description":  "Provides management services for disks, volumes, file systems, and storage arrays.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\vds.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Volume Shadow Copy",
+                                          "Description":  "Manages and implements Volume Shadow Copies used for backup and other purposes. If this service is stopped, shadow copies will be unavailable for backup and the backup may fail. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\vssvc.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Time",
+                                          "Description":  "Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Color System",
+                                          "Description":  "The WcsPlugInService service hosts third-party Windows Color System color device model and gamut map model plug-in modules. These plug-in modules are vendor-specific extensions to the Windows Color System baseline color device and gamut map models. Stopping or disabling the WcsPlugInService service will disable this extensibility feature, and the Windows Color System will use its baseline model processing rather than the vendor\u0027s desired processing. This might result in inaccurate color rendering.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k wcssvc",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Diagnostic Service Host",
+                                          "Description":  "The Diagnostic Service Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local Service context.  If this service is stopped, any diagnostics that depend on it will no longer function.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Diagnostic System Host",
+                                          "Description":  "The Diagnostic System Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local System context.  If this service is stopped, any diagnostics that depend on it will no longer function.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Event Collector",
+                                          "Description":  "This service manages persistent subscriptions to events from remote sources that support WS-Management protocol. This includes Windows Vista event logs, hardware and IPMI-enabled event sources. The service stores forwarded events in a local Event Log. If this service is stopped or disabled event subscriptions cannot be created and forwarded events cannot be accepted.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k NetworkService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Problem Reports and Solutions Control Panel Support",
+                                          "Description":  "This service provides support for viewing, sending and deletion of system-level problem reports for the Problem Reports and Solutions control panel.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Error Reporting Service",
+                                          "Description":  "Allows errors to be reported when programs stop working or responding and allows existing solutions to be delivered. Also allows logs to be generated for diagnostic and repair services. If this service is stopped, error reporting might not work correctly and results of diagnostic services and repairs might not be displayed.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k WerSvcGroup",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "WinHTTP Web Proxy Auto-Discovery Service",
+                                          "Description":  "WinHTTP implements the client HTTP stack and provides developers with a Win32 API and COM Automation component for sending HTTP requests and receiving responses. In addition, WinHTTP provides support for auto-discovering a proxy configuration via its implementation of the Web Proxy Auto-Discovery (WPAD) protocol.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalService",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "NT AUTHORITY\\LocalService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Management Instrumentation",
+                                          "Description":  "Provides a common interface and object model to access management information about operating system, devices, applications and services. If this service is stopped, most Windows-based software will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Remote Management (WS-Management)",
+                                          "Description":  "Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management. WS-Management is a standard web services protocol used for remote software and hardware management. The WinRM service listens on the network for WS-Management requests and processes them. The WinRM Service needs to be configured with a listener using winrm.cmd command line tool or through Group Policy in order for it to listen over the network. The WinRM service provides access to WMI data and enables event collection. Event collection and subscription to events require that the service is running. WinRM messages use HTTP and HTTPS as transports. The WinRM service does not depend on IIS but is preconfigured to share a port with IIS on the same machine.  The WinRM service reserves the /wsman URL prefix. To prevent conflicts with IIS, administrators should ensure that any websites hosted on IIS do not use the /wsman URL prefix.",
+                                          "Started":  true,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k NetworkService",
+                                          "StartMode":  "Auto",
+                                          "StartAs":  "NT AUTHORITY\\NetworkService",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "WMI Performance Adapter",
+                                          "Description":  "Provides performance library information from Windows Management Instrumentation (WMI) providers to clients on the network. This service only runs when Performance Data Helper is activated.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\wbem\\WmiApSrv.exe",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "localSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Portable Device Enumerator Service",
+                                          "Description":  "Enforces group policy for removable mass-storage devices. Enables applications such as Windows Media Player and Image Import Wizard to transfer and synchronize content using removable mass-storage devices.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Store Service (WSService)",
+                                          "Description":  "Provides infrastructure support for Windows Store.This service is started on demand and if disabled applications bought using Windows Store will not behave correctly.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\System32\\svchost.exe -k wsappx",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Update",
+                                          "Description":  "Enables the detection, download, and installation of updates for Windows and other programs. If this service is disabled, users of this computer will not be able to use Windows Update or its automatic updating feature, and programs will not be able to use the Windows Update Agent (WUA) API.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k netsvcs",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      },
+                                      {
+                                          "Caption":  "Windows Driver Foundation - User-mode Driver Framework",
+                                          "Description":  "Creates and manages user-mode driver processes. This service cannot be stopped.",
+                                          "Started":  false,
+                                          "PathName":  "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+                                          "StartMode":  "Manual",
+                                          "StartAs":  "LocalSystem",
+                                          "Status":  "OK"
+                                      }
+                                  ]
+                 },
+    "Shares":  [
+                   {
+                       "Description":  "Remote Admin",
+                       "Name":  "ADMIN$",
+                       "Path":  "C:\\Windows",
+                       "ShareType":  "Disk Drive Admin"
+                   },
+                   {
+                       "Description":  "Default share",
+                       "Name":  "C$",
+                       "Path":  "C:\\",
+                       "ShareType":  "Disk Drive Admin"
+                   },
+                   {
+                       "Description":  "",
+                       "Name":  "DirectJoin",
+                       "Path":  "C:\\DirectJoin",
+                       "ShareType":  "Disk Drive"
+                   },
+                   {
+                       "Description":  "Default share",
+                       "Name":  "E$",
+                       "Path":  "E:\\",
+                       "ShareType":  "Disk Drive Admin"
+                   },
+                   {
+                       "Description":  "Default share",
+                       "Name":  "F$",
+                       "Path":  "F:\\",
+                       "ShareType":  "Disk Drive Admin"
+                   },
+                   {
+                       "Description":  "Default share",
+                       "Name":  "G$",
+                       "Path":  "G:\\",
+                       "ShareType":  "Disk Drive Admin"
+                   },
+                   {
+                       "Description":  "Remote IPC",
+                       "Name":  "IPC$",
+                       "Path":  "",
+                       "ShareType":  "IPC Admin"
+                   },
+                   {
+                       "Description":  "",
+                       "Name":  "Signage",
+                       "Path":  "G:\\Signage",
+                       "ShareType":  "Disk Drive"
+                   },
+                   {
+                       "Description":  "",
+                       "Name":  "Third-Party Software",
+                       "Path":  "G:\\Source\\Third-Party Software",
+                       "ShareType":  "Disk Drive"
+                   },
+                   {
+                       "Description":  "",
+                       "Name":  "TSMedia",
+                       "Path":  "G:\\ISO\\TSMedia",
+                       "ShareType":  "Disk Drive"
+                   }
+               ],
+    "Software":  [
+
+                 ],
+    "SystemType":  "x64-based PC",
+    "Time":  {
+                 "DaylightInEffect":  true,
+                 "Details":  "",
+                 "Source":  "",
+                 "Type":  "",
+                 "Zone":  "(UTC-05:00) Eastern Time (US \u0026 Canada)"
+             },
+    "UserProfiles":  [
+                         {
+                             "LastUseTime":  "2018-07-20 13:51:37Z",
+                             "LocalPath":  "C:\\Users\\a-lemanowiczj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-5893"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:18Z",
+                             "LocalPath":  "C:\\Users\\a-stewartc",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3780"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:18Z",
+                             "LocalPath":  "C:\\Users\\a-skufcaj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3723"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:18Z",
+                             "LocalPath":  "C:\\Users\\a-conwir",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3691"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:18Z",
+                             "LocalPath":  "C:\\Users\\a-kaiserw",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3603"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-24 15:07:57Z",
+                             "LocalPath":  "C:\\Users\\a-mcgowanj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3548"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:18Z",
+                             "LocalPath":  "C:\\Users\\a-schroederc",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3547"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:18Z",
+                             "LocalPath":  "C:\\Users\\a-bridgesa",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3447"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:18Z",
+                             "LocalPath":  "C:\\Users\\gurene",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3423"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-padgetts",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3419"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-hallt",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3411"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:12Z",
+                             "LocalPath":  "C:\\Users\\a-menona",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3395"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\bridgesa",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3387"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:12Z",
+                             "LocalPath":  "C:\\Users\\a-gercevichm",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3382"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-piercer",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3290"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-straubm",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3263"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:11Z",
+                             "LocalPath":  "C:\\Users\\a-ceriob",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3262"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-kaberd",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3253"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\s-directaccessprep",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3250"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-badarj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3246"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-piercem",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3241"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-25 21:33:11Z",
+                             "LocalPath":  "C:\\Users\\willsek",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3223"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\mcgowanj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3206"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\loe",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3201"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-24 18:48:33Z",
+                             "LocalPath":  "C:\\Users\\a-freemans",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3178"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-ornm",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3176"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-25 11:04:31Z",
+                             "LocalPath":  "C:\\Users\\a-wallerj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3175"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:17Z",
+                             "LocalPath":  "C:\\Users\\a-druganj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3153"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\wallerj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3145"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\yatese",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3144"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\kyler",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-3116"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\s-scinstall",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1273"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-25 23:19:11Z",
+                             "LocalPath":  "C:\\Users\\s-orchestrator",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1262"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\druganj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1236"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\freemans",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1234"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\novaks",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1229"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\weaverr",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1228"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\piercem",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1216"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\vazqueza",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1208"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\kaiserw",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1207"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:06Z",
+                             "LocalPath":  "C:\\Users\\bradnanj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1202"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\ozanichp",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1201"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\duncanf",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1198"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:16Z",
+                             "LocalPath":  "C:\\Users\\gibsonm",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1197"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:05Z",
+                             "LocalPath":  "C:\\Users\\norcrosst",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1196"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:04Z",
+                             "LocalPath":  "C:\\Users\\cusickm",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1190"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\ornm",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1189"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\barrj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1186"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\stewartc",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1180"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\badarj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1179"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\wheelerj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1174"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\conwir",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1171"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\isaacksd",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1170"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\grovere",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1168"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\oleara",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1164"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:01Z",
+                             "LocalPath":  "C:\\Users\\doddd",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1159"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\oleskij",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1153"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:00Z",
+                             "LocalPath":  "C:\\Users\\allenr",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1148"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\skufcaj",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1138"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\a-novaks",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1135"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\a-ozanichp",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1134"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\a-strittmatterr",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1133"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-19 23:00:15Z",
+                             "LocalPath":  "C:\\Users\\a-vazqueza",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1106"
+                         },
+                         {
+                             "LastUseTime":  "2018-07-25 18:44:55Z",
+                             "LocalPath":  "C:\\Users\\a-duncanf",
+                             "SID":  "S-1-5-21-3809566609-793217471-3353575388-1104"
+                         }
+                     ],
+    "UserRights":  {
+                       "SeAuditPrivilege":  [
+                                                "NT AUTHORITY\\NETWORK SERVICE",
+                                                "NT AUTHORITY\\LOCAL SERVICE"
+                                            ],
+                       "SeAssignPrimaryTokenPrivilege":  [
+                                                             "NT AUTHORITY\\NETWORK SERVICE",
+                                                             "NT AUTHORITY\\LOCAL SERVICE"
+                                                         ],
+                       "SeBatchLogonRight":  [
+                                                 "BUILTIN\\IIS_IUSRS",
+                                                 "BUILTIN\\Performance Log Users",
+                                                 "BUILTIN\\Backup Operators",
+                                                 "BUILTIN\\Administrators"
+                                             ],
+                       "SeBackupPrivilege":  [
+                                                 "BUILTIN\\Backup Operators",
+                                                 "BUILTIN\\Administrators"
+                                             ],
+                       "SeChangeNotifyPrivilege":  [
+                                                       "Window Manager\\Window Manager Group",
+                                                       "BUILTIN\\Backup Operators",
+                                                       "BUILTIN\\Users",
+                                                       "BUILTIN\\Administrators",
+                                                       "NT AUTHORITY\\NETWORK SERVICE",
+                                                       "NT AUTHORITY\\LOCAL SERVICE",
+                                                       "Everyone"
+                                                   ],
+                       "SeCreateGlobalPrivilege":  [
+                                                       "NT AUTHORITY\\SERVICE",
+                                                       "BUILTIN\\Administrators",
+                                                       "NT AUTHORITY\\NETWORK SERVICE",
+                                                       "NT AUTHORITY\\LOCAL SERVICE"
+                                                   ],
+                       "SeCreatePagefilePrivilege":  [
+                                                         "BUILTIN\\Administrators"
+                                                     ],
+                       "SeCreatePermanentPrivilege":  null,
+                       "SeCreateSymbolicLinkPrivilege":  [
+                                                             "BUILTIN\\Administrators"
+                                                         ],
+                       "SeCreateTokenPrivilege":  null,
+                       "SeDebugPrivilege":  [
+                                                "BUILTIN\\Administrators"
+                                            ],
+                       "SeDenyBatchLogonRight":  null,
+                       "SeDenyInteractiveLogonRight":  null,
+                       "SeDenyNetworkLogonRight":  [
+                                                       "NT AUTHORITY\\Local account"
+                                                   ],
+                       "SeDenyServiceLogonRight":  null,
+                       "SeDenyRemoteInteractiveLogonRight":  null,
+                       "SeEnableDelegationPrivilege":  null,
+                       "SeInteractiveLogonRight":  [
+                                                       "BUILTIN\\Backup Operators",
+                                                       "BUILTIN\\Users",
+                                                       "BUILTIN\\Administrators"
+                                                   ],
+                       "SeIncreaseBasePriorityPrivilege":  [
+                                                               "BUILTIN\\Administrators"
+                                                           ],
+                       "SeIncreaseQuotaPrivilege":  [
+                                                        "BUILTIN\\Administrators",
+                                                        "NT AUTHORITY\\NETWORK SERVICE",
+                                                        "NT AUTHORITY\\LOCAL SERVICE"
+                                                    ],
+                       "SeIncreaseWorkingSetPrivilege":  [
+                                                             "Window Manager\\Window Manager Group",
+                                                             "BUILTIN\\Users"
+                                                         ],
+                       "SeImpersonatePrivilege":  [
+                                                      "NT AUTHORITY\\SERVICE",
+                                                      "BUILTIN\\IIS_IUSRS",
+                                                      "BUILTIN\\Administrators",
+                                                      "NT AUTHORITY\\NETWORK SERVICE",
+                                                      "NT AUTHORITY\\LOCAL SERVICE"
+                                                  ],
+                       "SeLoadDriverPrivilege":  [
+                                                     "BUILTIN\\Administrators"
+                                                 ],
+                       "SeLockMemoryPrivilege":  null,
+                       "SeMachineAccountPrivilege":  null,
+                       "SeManageVolumePrivilege":  [
+                                                       "BUILTIN\\Administrators"
+                                                   ],
+                       "SeNetworkLogonRight":  [
+                                                   "BUILTIN\\Backup Operators",
+                                                   "BUILTIN\\Users",
+                                                   "BUILTIN\\Administrators",
+                                                   "Everyone"
+                                               ],
+                       "SeProfileSingleProcessPrivilege":  [
+                                                               "BUILTIN\\Administrators"
+                                                           ],
+                       "SeRelabelPrivilege":  null,
+                       "SeRemoteInteractiveLogonRight":  [
+                                                             "BUILTIN\\Remote Desktop Users",
+                                                             "BUILTIN\\Administrators"
+                                                         ],
+                       "SeRemoteShutdownPrivilege":  [
+                                                         "BUILTIN\\Administrators"
+                                                     ],
+                       "SeRestorePrivilege":  [
+                                                  "BUILTIN\\Backup Operators",
+                                                  "BUILTIN\\Administrators"
+                                              ],
+                       "SeSecurityPrivilege":  [
+                                                   "BUILTIN\\Administrators"
+                                               ],
+                       "SeServiceLogonRight":  [
+                                                   "NT SERVICE\\ALL SERVICES"
+                                               ],
+                       "SeShutdownPrivilege":  [
+                                                   "BUILTIN\\Backup Operators",
+                                                   "BUILTIN\\Administrators"
+                                               ],
+                       "SeSyncAgentPrivilege":  null,
+                       "SeSystemEnvironmentPrivilege":  [
+                                                            "BUILTIN\\Administrators"
+                                                        ],
+                       "SeSystemProfilePrivilege":  [
+                                                        "NT SERVICE\\WdiServiceHost",
+                                                        "BUILTIN\\Administrators"
+                                                    ],
+                       "SeSystemtimePrivilege":  [
+                                                     "BUILTIN\\Administrators",
+                                                     "NT AUTHORITY\\LOCAL SERVICE"
+                                                 ],
+                       "SeTakeOwnershipPrivilege":  [
+                                                        "BUILTIN\\Administrators"
+                                                    ],
+                       "SeTcbPrivilege":  null,
+                       "SeTimeZonePrivilege":  [
+                                                   "BUILTIN\\Administrators",
+                                                   "NT AUTHORITY\\LOCAL SERVICE"
+                                               ],
+                       "SeTrustedCredManAccessPrivilege":  null,
+                       "SeUndockPrivilege":  [
+                                                 "BUILTIN\\Administrators"
+                                             ],
+                       "SeUnsolicitedInputPrivilege":  null
+                   },
+    "Users":  [
+                  "Administrator",
+                  "Guest"
+              ],
+    "WorkgroupName":  ""
+}
