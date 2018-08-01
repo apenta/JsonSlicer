@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Web;
 using JsonSlicer.Models;
@@ -15,5 +16,7 @@ namespace JsonSlicer.ViewModels.Home
         public string Contents { get; set; }
 
         public InputFile File { get; set; }
+
+        public List<string> SelectedKeys { get; set; }
     }
 }

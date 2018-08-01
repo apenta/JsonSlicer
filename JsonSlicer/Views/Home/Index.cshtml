@@ -18,40 +18,52 @@
 
     <div class="form-group">
         @Html.LabelFor(x => x.InputFile, new { @class = "control-label" })
-        <input type="file" name="InputFile" id="InputFile" class="form-control"/>
+        <input type="file" name="InputFile" id="InputFile" class="form-control" />
     </div>
 
     <div class="form-group">
         @Html.LabelFor(x => x.Contents, new { @class = "control-label" })
         @Html.TextAreaFor(x => x.Contents, new { @class = "form-control", rows = "10" })
     </div>
-    
+
     <input class="btn btn-default" type="submit" value="Upload" />
 
     @ViewBag.Message
 }
+
 @if (Model.File != null)
 {
     <hr />
     <h2>File Contents</h2>
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Key</th>
-            <th>Value</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var kvp in Model.File.Data)
-        {
-            <tr>
-                <td>@kvp.Key</td>
-                <td>
-                    <code>@kvp.Value</code>
-                </td>
-            </tr>
-        }
-        </tbody>
-    </table>
+
+    using (Html.BeginForm("Export", "Home"))
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Key</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var kvp in Model.File.Data)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="SelectedKeys[]" value="@kvp.Key" />
+                        </td>
+                        <td>@kvp.Key</td>
+                        <td>
+                            <code>@kvp.Value</code>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <input type="hidden" id="Contents" name="Contents" value="@Model.Contents"/>
+        <input type="submit" class="btn btn-primary" value="Export" />
+    }
+
 }
-    

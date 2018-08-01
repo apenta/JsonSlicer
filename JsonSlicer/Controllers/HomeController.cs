@@ -61,5 +61,31 @@ namespace JsonSlicer.Controllers
 
             return View(viewModel);
         }
+
+        [HttpPost]
+        public JsonResult Export(IndexViewModel viewModel)
+        {
+            var inputFile = new InputFile
+            {
+                Data = JsonConvert.DeserializeObject<Dictionary<string, object>>(viewModel.Contents)
+            };
+
+            var outputFile = new InputFile
+            {
+                Data = new Dictionary<string, object>()
+            };
+
+            foreach (var key in viewModel.SelectedKeys)
+            {
+                var value = inputFile.Data[key];
+                outputFile.Data[key] = value;
+            }
+
+            // serialize `outputFile.Data` to string
+            // get byte[] from serialized string
+            // return FileResult of that byte[]
+
+            return Json(outputFile.Data);
+        }
     }
 }
