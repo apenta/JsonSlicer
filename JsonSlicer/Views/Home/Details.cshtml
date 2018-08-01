@@ -6,22 +6,3 @@
 
 <h2>File Details</h2>
 
-<table class="table">
-    <thead>
-    <tr>
-        <th>Key</th>
-        <th>Value</th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var kvp in Model.InputFile.Data)
-    {
-        <tr>
-            <td>@kvp.Key</td>
-            <td>
-                <code>@kvp.Value</code>
-            </td>
-        </tr>
-    }
-    </tbody>
-</table>

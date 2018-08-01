@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Web;
@@ -16,11 +17,16 @@ namespace JsonSlicer.Controllers
     {
         public ActionResult Index()
         {
-            return View(new IndexViewModel());
+            var vm = new IndexViewModel
+            {
+            };
+
+            return View(vm);
         }
 
         [HttpPost]
-        public ActionResult FileUpload(IndexViewModel viewModel)
+        [ValidateAntiForgeryToken]
+        public ActionResult Index(IndexViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
@@ -30,26 +36,19 @@ namespace JsonSlicer.Controllers
                     {
                         using (var reader = new StreamReader(viewModel.InputFile.InputStream))
                         {
-                            var contents = reader.ReadToEnd();
-                            var inputFile = new InputFile
-                            {
-                                Data = JsonConvert.DeserializeObject<Dictionary<string, object>>(contents)
-                            };
-
-                            var vm = new DetailsViewModel
-                            {
-                                InputFile = inputFile
-                            };
-
-                            TempData["DetailsViewModel"] = vm;
-                            return RedirectToAction(nameof(Details));
+                            viewModel.Contents = reader.ReadToEnd();
                         }
                     }
 
-                    ViewBag.Message = "File uploaded successfully";
+                    var inputFile = new InputFile
+                    {
+                        Data = JsonConvert.DeserializeObject<Dictionary<string, object>>(viewModel.Contents)
+                    };
+
+                    viewModel.File = inputFile;
+
+                    return View(viewModel);
                 }
-
-
                 catch (Exception ex)
                 {
                     ViewBag.Message = "ERROR:" + ex.Message.ToString();
@@ -60,12 +59,6 @@ namespace JsonSlicer.Controllers
                 ViewBag.Message = "You have not specified a file.";
             }
 
-            return View(nameof(Index), viewModel);
-        }
-
-        public ActionResult Details()
-        {
-            var viewModel = (DetailsViewModel) TempData["DetailsViewModel"];
             return View(viewModel);
         }
     }
