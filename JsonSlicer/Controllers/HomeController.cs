@@ -1,12 +1,13 @@
-﻿using JsonSlicer.Models;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using JsonSlicer.Models;
+using JsonSlicer.ViewModels;
+using JsonSlicer.ViewModels.Home;
+using Newtonsoft.Json;
+using IndexViewModel = JsonSlicer.ViewModels.Home.IndexViewModel;
 
 namespace JsonSlicer.Controllers
 {
@@ -15,25 +16,34 @@ namespace JsonSlicer.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(new IndexViewModel());
         }
 
         [HttpPost]
-        public ActionResult Index(HttpPostedFileBase file)
+        public ActionResult FileUpload(IndexViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    if (file != null)
+                    if (viewModel.InputFile != null)
                     {
-                        string path = Server.MapPath("~/UploadedFiles") +
-                                               Path.GetFileName(file.FileName);
-                        file.SaveAs(path);
-                        var webClient = new WebClient();
-                        var json = webClient.DownloadString(path);
-                        var keyvaluepairs = JsonConvert.DeserializeObject<KeyValuePair>(json);
-                        
+                        using (var reader = new StreamReader(viewModel.InputFile.InputStream))
+                        {
+                            var contents = reader.ReadToEnd();
+                            var inputFile = new InputFile
+                            {
+                                Data = JsonConvert.DeserializeObject<Dictionary<string, object>>(contents)
+                            };
+
+                            var vm = new DetailsViewModel
+                            {
+                                InputFile = inputFile
+                            };
+
+                            TempData["DetailsViewModel"] = vm;
+                            return RedirectToAction(nameof(Details));
+                        }
                     }
 
                     ViewBag.Message = "File uploaded successfully";
@@ -49,9 +59,14 @@ namespace JsonSlicer.Controllers
             {
                 ViewBag.Message = "You have not specified a file.";
             }
-            return View();
+
+            return View(nameof(Index), viewModel);
         }
 
-      
+        public ActionResult Details()
+        {
+            var viewModel = (DetailsViewModel) TempData["DetailsViewModel"];
+            return View(viewModel);
+        }
     }
 }
