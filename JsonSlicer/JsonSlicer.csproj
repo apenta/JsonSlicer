@@ -252,8 +252,6 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\InputFile.cs" />
-    <Compile Include="Models\KeyValuePair.cs" />
-    <Compile Include="Models\KeyValuePairs.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MeViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using JsonSlicer.Models;
@@ -25,7 +26,6 @@ namespace JsonSlicer.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public ActionResult Index(IndexViewModel viewModel)
         {
             if (ModelState.IsValid)
@@ -63,6 +63,7 @@ namespace JsonSlicer.Controllers
         }
 
         [HttpPost]
+
         public JsonResult Export(IndexViewModel viewModel)
         {
             var inputFile = new InputFile
@@ -81,8 +82,12 @@ namespace JsonSlicer.Controllers
                 outputFile.Data[key] = value;
             }
 
-            // serialize `outputFile.Data` to string
-            // get byte[] from serialized string
+            string json = JsonConvert.SerializeObject(outputFile.Data);
+            byte[] output = Encoding.UTF8.GetBytes(json);
+            
+
+                // serialize `outputFile.Data` to string
+                // get byte[] from serialized string
             // return FileResult of that byte[]
 
             return Json(outputFile.Data);
