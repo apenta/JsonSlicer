@@ -9,7 +9,7 @@
     Upload or Paste File Contents
 </h2>
 <div class="alert alert-info">
-    <strong>Heads up!</strong> If you choose to both upload a file and paste file contents, the uploaded file will be used. Sorry.
+    <strong>Heads up!</strong> If you choose to both upload a file and paste file contents, the uploaded file will be used.
 </div>
 @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
@@ -38,6 +38,7 @@
 
     using (Html.BeginForm("Export", "Home"))
     {
+        <input type="submit" class="btn btn-primary" value="Export" />
         <table class="table">
             <thead>
                 <tr>

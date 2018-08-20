@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Net;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
@@ -64,7 +65,7 @@ namespace JsonSlicer.Controllers
 
         [HttpPost]
 
-        public JsonResult Export(IndexViewModel viewModel)
+        public FileResult Export(IndexViewModel viewModel)
         {
             var inputFile = new InputFile
             {
@@ -82,15 +83,13 @@ namespace JsonSlicer.Controllers
                 outputFile.Data[key] = value;
             }
 
-            string json = JsonConvert.SerializeObject(outputFile.Data);
-            byte[] output = Encoding.UTF8.GetBytes(json);
+            var json = JsonConvert.SerializeObject(outputFile.Data, Formatting.Indented);
+            byte[] bytes = Encoding.UTF8.GetBytes(json);
+            var stream = new MemoryStream(bytes);
+
+            return File(stream, "application/json", string.Format("{0}.json", "JsonSlicerOutput"));
             
-
-                // serialize `outputFile.Data` to string
-                // get byte[] from serialized string
-            // return FileResult of that byte[]
-
-            return Json(outputFile.Data);
+            
         }
     }
 }
